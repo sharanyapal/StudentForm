@@ -1,8 +1,8 @@
 # StudentForm
 
-**Student information form workflow.**
+**A browser-based student admission form with custom layout and canvas background.**
 
-`Forms · Frontend` · `See project files` · Repository reference
+`HTML · CSS · JavaScript` · `Browser form` · Repository reference
 
 ---
 
@@ -12,15 +12,21 @@ Explore student information form workflow. The repository contains the implement
 
 ## Run or inspect locally
 
-Inspect the checked-in files for the appropriate runtime. Not all repositories have a one-command start script.
+Serve the folder locally:
+
+```bash
+python -m http.server 8000
+```
+
+Open **http://localhost:8000/assignment.html**. You can also open `assignment.html` directly to inspect its visual layout.
 
 ## Repository contents
 
 | Item | What it represents |
 |:--|:--|
 | [`README.md`](./README.md) | Project documentation |
-| [`assignment.html`](./assignment.html) | Application code |
-| [`index.js`](./index.js) | Application code |
+| [`assignment.html`](./assignment.html) | Form fields, structure and canvas backdrop |
+| [`index.js`](./index.js) | Frontend interaction script |
 | [`style.css`](./style.css) | Project file or module |
 
 ## How to evaluate
@@ -30,6 +36,9 @@ Inspect the checked-in files for the appropriate runtime. Not all repositories h
 - Inspect any dependency, permission, token or environment-variable requirements before execution.
 
 ## Scope
+
+The checked-in files do not include a backend form-processing endpoint or database. This is a client-side interface demo; submitting the form is not equivalent to saving a real admission record.
+
 
 This README reflects files currently present in the repository. It does not claim that all external services, hosting links or dependencies are operational. Never publish credentials or user data when testing it.
 
